@@ -20,7 +20,7 @@ public class DBConnector {
         Connection con = null;
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/libraryautomation", "root", "");
+            con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3308/libraryautomation", "root", "");
         } catch (Exception ex) {
             System.out.println("dbConnec başarısız :  " + ex);
         }

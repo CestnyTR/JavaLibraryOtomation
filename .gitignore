@@ -1,0 +1,43 @@
+# --- NetBeans / Ant derleme çıktıları ---
+/build/
+/dist/
+/nbbuild/
+/nbdist/
+/.nb-gradle/
+
+# NetBeans kullanıcıya özel ayarlar (paylaşılmamalı)
+nbproject/private/
+nbproject/*.orig
+
+# --- Java derlenmiş dosyalar ---
+*.class
+
+# Paketlenmiş arşivler (dist/ altında zaten üretiliyor)
+*.jar
+*.war
+*.ear
+*.nar
+
+# --- Log ve geçici dosyalar ---
+*.log
+*.tmp
+*.bak
+*~
+
+# --- IDE / editör dosyaları ---
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.classpath
+.project
+
+# --- İşletim sistemi dosyaları ---
+.DS_Store
+Thumbs.db
+
+# --- Hassas veriler ---
+# Gerçek veritabanı bağlantı bilgileri (şifre, host vb.) commit'lenmemeli
+*.local.properties
